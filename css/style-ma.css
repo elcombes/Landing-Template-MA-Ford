@@ -1,0 +1,243 @@
+body {
+	font-family: "Ford Antenna", Arial, Helvetica, sans-serif;
+	src: url("../fonts/FordAntennaWGL-Regular.otf") format("opentype");
+}
+header {
+	background-color: #1B2D70;
+	text-align: center;
+	padding: 15px;
+}
+
+hr {
+	display: none;
+}
+
+.centercontent {
+	display: inline-flex;
+    justify-content: center;
+}
+
+.cartelera01 {
+	display: inline-flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	align-items: center;
+	min-height: 420px;
+	background: url('../img/modelo01.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.cartelera02 {
+	display: inline-flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	align-items: center;
+	min-height: 420px;
+	background: url('../img/modelo02.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.cartelera03 {
+	display: inline-flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	align-items: center;
+	min-height: 420px;
+	background: url('../img/modelo03.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+.cardtext {
+	list-style: none;
+	color: #1F2039;
+}
+
+.tituloproducto {
+	font-size: 1.2rem;
+    font-weight: 700;
+}
+.cuotaproducto, .tipoplanproducto {
+	text-transform: uppercase;
+	font-size: 0.8rem;
+}
+.precioproducto {
+	font-size: 1.7rem;
+    font-weight: 800;
+}
+
+.botonproducto {
+	padding: 5% 0;
+}
+
+.modalsendbutton {
+	background: #129417;
+    color: white;
+    border-radius: 45px;
+    min-width: 150px;
+    min-height: 45px;
+    border: 1px solid #fff;
+    transition: all 0.2s;
+}
+
+.modalsendbutton:hover {
+	background: #2661E0;
+}
+
+.modalmasmodelosbutton {
+	background: #194093;
+    color: white;
+    border-radius: 45px;
+    min-width: 250px;
+    min-height: 45px;
+    border: 1px solid #fff;
+    transition: all 0.2s;
+}
+
+.modalmasmodelosbutton:hover {
+	background: #15357A;
+}
+
+.termsmodal {
+	text-decoration: none;
+}
+
+.contactbutton1 {
+	background: #1F2039;
+    color: white;
+    margin: 5px 0;
+    border-radius: 45px;
+    min-width: 215px;
+    min-height: 35px;
+    border: 1px solid #fff;
+    transition: all 0.2s;
+}
+
+.contactbutton1:hover {
+	background: #194093;
+}
+
+.contactbutton2 {
+	background: #0E9E92;
+    color: white;
+    margin: 5px 0;
+    border-radius: 45px;
+    min-width: 215px;
+    min-height: 35px;
+    border: 1px solid #fff;
+    transition: all 0.2s;
+}
+
+.contactbutton2:hover {
+	background: #2F9E06;
+}
+
+.buttoncta1 {
+	margin: 20px 0;
+	background: #1F2039;
+    color: white;
+    border-radius: 45px;
+    min-width: 230px;
+    min-height: 45px;
+    border: 1px solid #fff;
+    transition: all 0.2s;
+    font-size: 1rem;
+}
+
+.buttoncta1:hover {
+	background: #194093;
+	transition: all 0.2s;
+}
+
+.buttoncta2 {
+	margin: 20px 0;
+	background: #0E9E92;
+    color: white;
+    border-radius: 45px;
+    min-width: 230px;
+    min-height: 45px;
+    border: 1px solid #fff;
+    transition: all 0.2s;
+    font-size: 1rem;
+}
+
+.buttoncta2:hover {
+	background: #2F9E06;
+	transition: all 0.2s;
+}
+
+.descripcionproducto {
+	display: inline-flex;
+	align-content: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.separador {
+	background-color: #1F2039;
+	text-align: center;
+	padding: 15px;
+	margin-bottom: -1px;
+}
+
+.separador2 {
+	background-color: #194093;
+	text-align: center;
+	padding: 15px;
+	font-size: 1.2rem;
+	margin-bottom: -1px;
+}
+
+.textoseparador {
+	color: #fff;
+	font-weight: 400;
+}
+
+footer {
+	min-height: 120px;
+	background-color: #194093;
+	font-size: 0.7rem;
+	color: #fff;
+}
+.textofooter {
+	min-height: 120px;
+	display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media (max-width: 576px) {
+
+	.cartelera01 {
+		background: url('../img/modelo01-mobile.jpg');
+	}
+
+	.cartelera02 {
+		background: url('../img/modelo02-mobile.jpg');
+	}
+
+	.cartelera03 {
+		background: url('../img/modelo03-mobile.jpg');
+	}
+
+	hr {
+	display: block;
+	}
+
+	.buttoncta1,  {
+	    min-width: 180px;
+	    font-size: 1rem;
+	}
+	.buttoncta2 {
+	    min-width: 190px;
+	    font-size: 1rem;
+	}
+
+}
